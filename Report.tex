@@ -68,19 +68,19 @@
 
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
-\title{Modeling a Dynamic Rotational System with Slip} % Article title
+\title{SYDE 351 Project Report} % Article title
 \author{%
-\textsc{Krishn Ramesh, 20521942} \\[1ex] % Your name
-% TODO fill in student #s
+\textsc{Krishn Ramesh, 20521942} \\[1ex]
 \and
-\textsc{Kevin Michael, 205} \\[1ex] % Your name
+\textsc{Kevin Michael, 20507239} \\[1ex]
 \and
-\textsc{Peter Gokhshteyn, 205} \\[1ex] % Your name
-\normalsize SYDE 351 Project Report \\ % Your institution
+\textsc{Peter Gokhshteyn, 20508507} \\[1ex]
 }
-\date{\today} % Leave empty to omit a date
+\date{July 26, 2016} % Leave empty to omit a date
+
 \renewcommand{\maketitlehookd}{%
 \begin{abstract}
+% TODO @kevin: finish the abstract
 \noindent \blindtext % Dummy abstract text - replace \blindtext with your abstract text
 \end{abstract}
 }
@@ -96,34 +96,25 @@
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
+% TODO @krishn: finish the Intro
+% Explain the system and what it does physically.
 \section{Introduction}
 
 \lettrine[nindent=0em,lines=3]{L} orem ipsum dolor sit amet, consectetur adipiscing elit.
 \blindtext % Dummy text
 
-\blindtext % Dummy text
-
 %------------------------------------------------
 
-\section{Methods}
+% TODO @kevin: finish the prototype section
+% Describe your prototype and any interesting things about how it was constructed, problems encountered, solutions you invented.
+\section{Prototype}
 
-Maecenas sed ultricies felis. Sed imperdiet dictum arcu a egestas.
-\begin{itemize}
-\item Donec dolor arcu, rutrum id molestie in, viverra sed diam
-\item Curabitur feugiat
-\item turpis sed auctor facilisis
-\item arcu eros accumsan lorem, at posuere mi diam sit amet tortor
-\item Fusce fermentum, mi sit amet euismod rutrum
-\item sem lorem molestie diam, iaculis aliquet sapien tortor non nisi
-\item Pellentesque bibendum pretium aliquet
-\end{itemize}
 \blindtext % Dummy text
-
-Text requiring further explanation\footnote{Example footnote}.
-
 %------------------------------------------------
 
-\section{Results}
+% TODO @krishn: finish model
+% Describe your BG, components, constitutive equations, and so on. Explain how you arrived at all the parameters you used. What  measurements did you take? How? Estimations and assumptions made? Theoretical calculations? Extraction of components and separate testing e.g. for springs?
+\section{Model}
 
 \begin{table}
 \caption{Example table}
@@ -140,8 +131,6 @@ Richard & Miles & $2$ \\
 \end{tabular}
 \end{table}
 
-\blindtext % Dummy text
-
 \begin{equation}
 \label{eq:emc}
 e = mc^2
@@ -151,31 +140,19 @@ e = mc^2
 
 %------------------------------------------------
 
+% TODO @peter: finish this section
+% What are your state variables and outputs of interest. Give matlab results (plots, not charts of numbers). Do NOT provide massive quantities of outputs. Be very selective and apply engineering acumen. One good output plot may be sufficient. Providing stacks of output plots is not necessary, in fact undesirable and would receive a lower grade. State variables themselves are often not interesting outputs.
+\section{Simulation}
+
+\blindtext % Dummy text
+
+%------------------------------------------------
+
+% TODO @peter: finish this section
+% Compare simulation to data obtained from the system. Describe how well your simulation matches the actual behaviour as determined by an easily observable representative output variable (flashing lights, buzzer, counting rotations, and so on). Could the results be improved? Speculate on any significant descrepancies between test observations and simulation outputs. Explaining your validation process and demonstrating your understanding of the methods are much more important than getting wonderfully close agreement with the behaviour of your prototype.
 \section{Discussion}
 
-\subsection{Subsection One}
-
-A statement requiring citation \cite{Figueredo:2009dg}.
 \blindtext % Dummy text
 
-\subsection{Subsection Two}
-
-\blindtext % Dummy text
-
-%----------------------------------------------------------------------------------------
-%	REFERENCE LIST
-%----------------------------------------------------------------------------------------
-
-\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
-
-\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
-Figueredo, A.~J. and Wolf, P. S.~A. (2009).
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330.
-
-\end{thebibliography}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
