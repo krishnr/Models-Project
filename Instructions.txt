@@ -1,0 +1,53 @@
+Hand-in location to be announced. Reports are due on the last day of classes: Tuesday July 26th 
+
+Printed copies only please - no pdfs. 
+--------------------------------------------------------------------
+MANDATORY REPORT RULES
+
+THREE pages, no more, no less in 10 or 11 pt font (subject to dire penalties otherwise), reasonable margins, including all figures (not so tiny as to be unintelligible (this has been a common fault in past years)).
+
+TWO COLUMN format, with title and abstract ONLY to be spaced across both columns at the top of page one*
+
+NO COVER. Just staple the three pages together.
+
+* Note: Large diagrams or table might need to be spaced over two columns but think carefully befor you do that. Such should be the rare exception.
+
+The sections MUST be laid out this way (no exceptions):
+
+Title. Including group names and IDs.
+
+Abstract. 100 words or so (complete, stand alone) summary in one paragraph. (note the formatting for this above.)
+
+1. Introduction. Explain the system and what it does physically.
+
+2. The prototype. Describe your prototype and any interesting things about how it was constructed, problems encountered, solutions you invented.
+
+3. The model. Describe your BG, components, constitutive equations, and so on. Explain how you arrived at all the parameters you used. What  measurements did you take? How? Estimations and assumptions made? Theoretical calculations? Extraction of components and separate testing e.g. for springs?
+
+4. The simulation. What are your state variables and outputs of interest. Give matlab results (plots, not charts of numbers). Do NOT provide massive quantities of outputs. Be very selective and apply engineering acumen. One good output plot may be sufficient. Providing stacks of output plots is not necessary, in fact undesirable and would receive a lower grade. State variables themselves are often not interesting outputs.
+
+5. Discussion. Compare simulation to data obtained from the system. Describe how well your simulation matches the actual behaviour as determined by an easily observable representative output variable (flashing lights, buzzer, counting rotations, and so on). Could the results be improved? Speculate on any significant descrepancies between test observations and simulation outputs. Explaining your validation process and demonstrating your understanding of the methods are much more important than getting wonderfully close agreement with the behaviour of your prototype.
+
+6. References. Only include sources you actually used, quoted, or otherwise find valuable. I frown on internet references.
+
+Four diagrams MUST be included in the sections above (and NO other figures are allowed):
+
+1. Photograph of your prototype (or scale drawing, solidworks diagram and so on).
+
+2. Schematic engineering diagram of your system (indicate the components, polarities chosen, and so on).
+
+3. Detailed BG model diagram and related information (table of parameters here or in the text as you prefer).
+
+4. Simulation results (plot(s)) including testing results as appropriate.
+
+That's it. If you all follow the rules it's clearer what is expected, and should make it much easier. It's also fairer for grading because comparisons between groups are more meaningful. Average of one page per person is pretty good work ratio.
+
+Severe penalties and lost marks for anyone who breaks the rules.
+
+Project grades will be derived from:
+
+10 - Technical (correctness, completeness, equation formulation, modelling skill, validation process and so on).
+
+10 - Report (grammar, rules followed, clarity, neatness, good diagrams, and so on).
+
+10 - Subjective (how well does the system illustrate the concepts of dynamic system modelling, how interesting and meaningful are the state variables, how beautiful is the prototype, and so on).
