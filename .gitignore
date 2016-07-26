@@ -194,3 +194,5 @@ TSWLatexianTemp*
 *~[0-9]*
 
 videos/*
+
+.DS_Store
