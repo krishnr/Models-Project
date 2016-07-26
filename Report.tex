@@ -60,6 +60,10 @@
 
 \usepackage{hyperref} % For hyperlinks in the PDF
 
+
+\usepackage{graphicx} % For inserting images
+\graphicspath{ {images/} } % Folder where images are stored
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -96,17 +100,21 @@
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-% TODO @krishn: finish the Intro
-% Explain the system and what it does physically.
 \section{Introduction}
 
-\lettrine[nindent=0em,lines=3]{L} orem ipsum dolor sit amet, consectetur adipiscing elit.
-\blindtext % Dummy text
+\lettrine[nindent=0em,lines=3]{I} nteresting dynamic behaviours can be found everywhere, but as simple as they may seem at first glance, their internal workings can be quite tricky to study. Systems Design Engineers, in particular, need to be proficient at modeling complex systems. To practice this skill, the SYDE 351 course has a modeling \& simulation project. A simple prototype was chosen to be built, taking inspiration from the chain mechanism of bicycles. The prototype, seen in Figure 1, is composed of two wheels of varying sizes. Physically, the user rotates the top wheel which in turn rotates the bottom wheel. The bottom wheel slips suddenly every rotation due to the elastics that connect both wheels.
+
+\begin{figure}[!ht]
+    \caption{Photograph of the prototype}
+    \centering
+        \includegraphics[width=0.35\textwidth]{prototype.jpg}
+\end{figure}
 
 %------------------------------------------------
 
 % TODO @kevin: finish the prototype section
 % Describe your prototype and any interesting things about how it was constructed, problems encountered, solutions you invented.
+% Include a schematic diagram of the prototype
 \section{Prototype}
 
 \blindtext % Dummy text
